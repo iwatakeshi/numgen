@@ -43,5 +43,11 @@
 make
 ```
 
+## Clean
+
+```shell
+make clean
+```
+
 ## Dependencies
   * [commander.h](https://github.com/iwatakeshi/commander.h)
