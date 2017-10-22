@@ -15,25 +15,25 @@
 ### Generate Shuffled Numbers
 
 ```
-./numgen 100 -s 5 # 5 is the number of times to shuffle randomly
+./numgen 100 -s 5 >> shuffled.txt # 5 is the number of times to shuffle randomly
 ```
 
 ### Generate Shuffled Numbers (Descending)
 
 ```
-./numgen 100 -sd 5 # 5 is the number of times to shuffle randomly
+./numgen 100 -sd 5 >> shuffled.txt # 5 is the number of times to shuffle randomly
 ```
 
 ### Generate a List
 
 ```
-./numgen 100 -l
+./numgen 100 -l >> list.txt 
 ```
 
 ### Generate a List (Descending)
 
 ```
-./numgen 100 -ld
+./numgen 100 -ld >> list.txt 
 ```
 
 
