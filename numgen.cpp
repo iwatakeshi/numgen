@@ -20,7 +20,6 @@ int main(int argc, char* argv[]) {
   cmd_opt_value();
   cmd_opt("-r", "--random", false);
   cmd_opt("-s", "--shuffle", true);
-  cmd_opt("-sd", "--shuffle-descending", true);
   cmd_opt("-l", "--list", false);
   cmd_opt("-ld", "--list-descending", false);
 
@@ -39,17 +38,11 @@ int main(int argc, char* argv[]) {
       break;
     }
     case 4: {
-      shuffled = true;
-      descending = true;
-      shuffles = parseint(argv[cmd_val_index()]);
-      break;
-    }
-    case 5: {
       listed = true;
       descending = false;
       break;
     }
-    case 6: {
+    case 5: {
       listed = true;
       descending = true;
       break;
